@@ -84,7 +84,7 @@ class Main {
         }
         for (int i = 1; i <= n; i++) {
             if (!visited[i]) {
-                dfs(i);
+                dfsRecursion(i);
                 cnt++; //새로운 연결 요소 찾는 것. 새로운 dfs호출의 개수를 출력하는 것 => 방문한 이력이 있다면 pass.
             }
         }
